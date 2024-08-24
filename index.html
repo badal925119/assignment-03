@@ -37,6 +37,8 @@
             background-image: url(assets/bg.jpg);
             width: 100%;
             height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
       </style>
 
@@ -225,12 +227,12 @@
 
       <div class="">
         <!-- card-1 -->
-       <div class="flex flex-col lg:flex-row  mx-auto gap-4 mb-8">
-        <div class="flex flex-col p-5 lg:p-1 lg:flex-row items-center bg-white rounded-lg border-2 flex-1">
+       <div class="grid grid-cols-1 lg:grid-cols-3  mx-auto gap-4 mb-8">
+        <div class="flex flex-col col-span-2 p-5 lg:p-1 lg:flex-row items-center bg-white rounded-lg border-2 flex-1">
           <div class="w-full">
-            <img class="px-3 text-center" src="assets/img1.png" alt="">
+            <img class="px-3  w-full text-center" src="assets/img1.png" alt="">
           </div>
-          <div class="lg:-ml-36">
+          <div class="">
             <h1 class="text-lg font-bold mb-2">Commercial</h1>
             <p class="text-slate-500 mb-2">The barn house captivates with its blend of rustic charm  and modern. The barn house captivates with its blend of  rustic charm and modern .</p>
             <button class=" rounded-full">View Details <i class="bg-[#abef5f] text-black p-2 rounded-full -rotate-45 fa-solid fa-arrow-right"></i></button>
@@ -238,21 +240,21 @@
 
         </div>
         <div class="bg-white rounded-lg border-2">
-          <img class="p-6" src="assets/img2.png" alt="">
+          <img class="p-6 w-full" src="assets/img2.png" alt="">
         </div>
 
        </div>
 
        <!-- card-2 -->
-       <div class=" flex flex-col lg:flex-row  to gap-4">
+       <div class=" grid grid-cols-1 lg:grid-cols-4  gap-4">
 
-        <div class="bg-white rounded-lg px-4 border-2">
-          <img class="lg:max-w-xl  p-2" src="assets/img3.png" alt="">
+        <div class="bg-white w-full rounded-lg px-4 border-2">
+          <img class="lg:max-w-xl w-full  p-2" src="assets/img3.png" alt="">
         </div>
 
-        <div class="flex flex-col p-5 lg:p-1 lg:flex-row items-center bg-white rounded-lg border-2">
+        <div class="flex flex-col col-span-2 p-5 lg:p-1 lg:flex-row items-center bg-white rounded-lg border-2">
           <div class="w-full">
-            <img class="px-3 text-center" src="assets/img4.png" alt="">
+            <img class="px-3 w-full text-center" src="assets/img4.png" alt="">
           </div>
           <div class="px-3">
             <h1 class="text-lg font-bold mb-2">Commercial</h1>
@@ -262,7 +264,7 @@
 
         </div>
         <div class="bg-white rounded-lg  border-2">
-          <img class="p-6 lg:max-w-xl" src="assets/img5.png" alt="">
+          <img class="p-6 w-full lg:max-w-xl" src="assets/img5.png" alt="">
         </div>
 
        </div>
@@ -283,9 +285,9 @@
         <div class=" flex items-center justify-center pt-36">
             <button class="btn bg-[#abef5f] bg-opacity-60 rounded-full"> <i class="bg-[#abef5f] text-black p-2 rounded-full fa-solid fa-arrow-right"></i> Let’s Connect </button>
         </div>
-        <div class="flex justify-center items-center flex-col pt-6 gap-6">
+        <div class="flex justify-center text-center items-center flex-col pt-6 gap-6">
             <h1 class="text-5xl font-bold">Let’s Discuss Next Project</h1>
-            <p class="text-center text-lg font-semibold">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+            <p class="text-center px-2 text-lg font-semibold">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
         </div>
 
           <div class="grid w-2/3 grid-cols-1 lg:grid-cols-2 gap-6 lg:pb-32 pt-6">
